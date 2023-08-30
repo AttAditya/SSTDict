@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+$black: hsl(0, 0%, 7%);
+
+$primary: #e7f3ff;
+$success: #4bca5e;
+$warning: #FEC601;
+$danger: #ff001f;
+$info: #1a84ff;
+//$info: hsl(23, 100%, 50%);
+//$primary: hsl(23, 100%, 50%);
+$family-sans-serif: "Open Sans";
+
+$black-bis: hsl(0, 0%, 7%);
+$black-ter: hsl(0, 0%, 14%);
+$grey-darker: hsl(0, 0%, 21%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+$white-ter: hsl(0, 0%, 96%);
+$white-bis: hsl(0, 0%, 98%);
+
+/*
+$white: hsl(0, 0%, 100%);
+$black-bis: hsl(0, 0%, 98%);
+$black-ter: hsl(0, 0%, 96%);
+$grey-darker: hsl(0, 0%, 86%);
+$grey-dark: hsl(0, 0%, 71%);
+$grey: hsl(0, 0%, 48%);
+$grey-light:hsl(0, 0%, 29%);
+$grey-lighter:hsl(0, 0%, 21%);
+$white-ter: hsl(0, 0%, 14%);
+$white-bis: hsl(0, 0%, 7%);
+$white: hsl(0, 0%, 0%);
+*/
+
+$input-border-color: $black;
+                                                                                
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/components/_all.sass";
+@import "bulma/sass/elements/_all.sass";
+@import "bulma/sass/form/_all.sass";
+@import "bulma/sass/grid/_all.sass";
+@import "bulma/sass/helpers/_all.sass";
+@import "bulma/sass/layout/_all.sass";
+@import "bulma/sass/utilities/_all.sass";
+

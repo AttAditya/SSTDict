@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SST Dictionary</title>
+
+    <link rel="stylesheet" href="/res/stylesheets/main.css">
+    <link rel="shortcut icon" href="/res/images/icon.png">
+
+    <script src="/res/scripts/search.js"></script>
+</head>
+
+<body>
+    <div class="container p-4">
+        <div class="columns is-mobile">
+            <div class="column is-one-third is-offset-one-third">
+                <img src="/res/images/icon.png" alt="SST Dict" style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1 / 1;">
+            </div>
+        </div>
+
+        <div class="field has-addons mb-0">
+            <div class="control is-expanded">
+                <input type="text" class="input is-info" placeholder="Search SST Dictionary" onkeyup="search(this.value, document.getElementById('search-results'));">
+            </div>
+        </div>
+        <div class="mb-4 mx-0 p-2 box is-hidden mt-0 columns is-multiline is-mobile" id="search-results"></div>
+    </div>
+</body>
+</html>

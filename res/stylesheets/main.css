@@ -1,0 +1,31 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "/res/stylesheets/colors.css";
+
+* {
+    transition: 0.3s;
+}
+
+button {
+    transform: scale(1);
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.read-more {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.auto-scroll-x {
+    overflow-x: auto;
+}
+
+.auto-scroll-y {
+    overflow-y: auto;
+}
+

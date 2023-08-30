@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>"[[key]]" | SST Dictionary</title>
+
+    <link rel="stylesheet" href="/res/stylesheets/main.css">
+    <link rel="shortcut icon" href="/res/images/icon.png">
+
+    <script src="/res/scripts/meaning.js"></script>
+</head>
+<body>
+    <a href="/" class="tag is-small is-info m-2">
+        Back to home
+    </a>
+    
+    <div class="container p-4">
+        <h1 class="title is-capitalized is-size-1 has-text-centered">
+            "[[key]]"
+        </h1>
+
+        <h1 class="title mt-4 mb-2">
+            Tags
+        </h1>
+        <div class="tags mt-1" id="tags-container"></div>
+        
+        <h1 class="title mt-4 mb-2">
+            More about it...
+        </h1>
+        <p class="mt-1">
+            [[desc]]
+        </p>
+
+        <h1 class="title mt-4 mb-2">
+            Usage
+        </h1>
+        <div class="content">
+            <p class="mt-1" id="examples-container"></p>
+        </div>
+
+        <h1 class="title mt-4 mb-2">
+            Alternatives
+        </h1>
+        <div class="columns is-multiline" id="alternatives-container"></div>
+
+        <h1 class="title mt-4 mb-2">
+            Emotions attached with it...
+        </h1>
+        <div class="box has-background-info has-text-white" id="emotions-container">
+        </div>
+    </div>
+</body>
+<script>
+    load_meanings("[[key]]");
+</script>
+</html>
